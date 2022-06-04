@@ -30,7 +30,7 @@ h1,h2,h3,p{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    
 }
 .page-header-container{
     display: flex;
@@ -176,14 +176,16 @@ color: var(--primary-text-color);
 }
 .advantage-list{
     display: flex;
-    
+    gap: 30px;
+    flex-wrap: wrap;
   
         
 }
-.advantage-list-item:not(:last-child){
-   margin-right: 30px;
-
+.advantage-list-item{
+ 
+width: calc((100% - 90px) / 4);
 }
+
  .advantage-text{
     font-family: 'Roboto';
 font-style: normal;
